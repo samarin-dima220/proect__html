@@ -1,0 +1,25 @@
+@media(min-width:1200px)  {
+  html {
+    background-color: red;
+  }
+}
+@media(min-width:992px) and (max-width: 1199px)  {
+  html {
+    background-color: yellow;
+  }
+}
+@media(min-width:768px) and (max-width: 991px)  {
+  html {
+    background-color: blue;
+  }
+}
+@media(min-width:576px) and (max-width: 767px)  {
+  html {
+    background-color: #ccc;
+  }
+}
+@media(max-width: 575px) {
+  html {
+    background-color: green;
+  }
+}
